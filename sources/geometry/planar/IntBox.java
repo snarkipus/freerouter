@@ -195,7 +195,7 @@ public class IntBox extends RegularTileShape implements java.io.Serializable
     /**
      * Calculates the sorted p_max_result_points nearest points on the  border of this box.
      * p_point is assumed to be located in the interiour of this nox.
-     * The funtion is only  imoplemented for p_max_result_points <= 2;
+     * The funtion is only  imoplemented for p_max_result_points &le; 2;
      */
     public IntPoint[] nearest_border_projections(IntPoint p_point, int p_max_result_points)
     {
@@ -527,7 +527,7 @@ public class IntBox extends RegularTileShape implements java.io.Serializable
     
     /**
      * Returns the box offseted by p_dist.
-     * If p_dist > 0, the offset is to the outside,
+     * If p_dist &gt; 0, the offset is to the outside,
      * else to the inside.
      */
     public IntBox offset(double p_dist)
@@ -544,7 +544,7 @@ public class IntBox extends RegularTileShape implements java.io.Serializable
     
     /**
      * Returns the box, where the horizontal boundary is offseted by p_dist.
-     * If p_dist > 0, the offset is to the outside,
+     * If p_dist &gt; 0, the offset is to the outside,
      * else to the inside.
      */
     public IntBox horizontal_offset(double p_dist)
@@ -561,7 +561,7 @@ public class IntBox extends RegularTileShape implements java.io.Serializable
     
     /**
      * Returns the box, where the vertical boundary is offseted by p_dist.
-     * If p_dist > 0, the offset is to the outside,
+     * If p_dist &gt; 0, the offset is to the outside,
      * else to the inside.
      */
     public IntBox vertical_offset(double p_dist)

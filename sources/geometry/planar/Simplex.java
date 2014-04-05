@@ -88,7 +88,7 @@ public class Simplex extends TileShape implements java.io.Serializable
     
     /**
      * Returns true,  if the determinant of the direction of index
-     * p_no -1 and the direction of index p_no is > 0
+     * p_no -1 and the direction of index p_no is &gt; 0
      */
     public boolean corner_is_bounded(int p_no)
     {
@@ -681,7 +681,7 @@ public class Simplex extends TileShape implements java.io.Serializable
     
     /**
      * Returns the simplex offseted by p_with.
-     * If p_width > 0, the offset is to the outer, else to the inner.
+     * If p_width &gt; 0, the offset is to the outer, else to the inner.
      */
     public Simplex offset(double p_width)
     {

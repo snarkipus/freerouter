@@ -66,7 +66,7 @@ public class Padstacks implements java.io.Serializable
     }
     
     /**
-     * Returns the padstack with index p_padstack_no for 1 <= p_padstack_no <= padstack_count
+     * Returns the padstack with index p_padstack_no for 1 &le; p_padstack_no &le; padstack_count
      */
     public Padstack get(int p_padstack_no)
     {
